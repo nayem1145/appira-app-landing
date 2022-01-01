@@ -1,0 +1,50 @@
+/*-------------------------------------------------------------
+Template Name: Appira
+Author Name: PS Theme
+Author URL: https://themeforest.net/user/ps-theme/portfolio
+Version: 1.0
+Description: This Is An Awesome APP Landing HTML5 Template
+Tags: app landing
+-------------------------------------------------------------*/
+
+/*------------------------------------------------------------- 
+TABLE OF CONTENTS: 
+---------------------------------------------------------------
+>> Variable
+>> Mixin
+>> Typography
+>> Animation
+>> Navbar
+>> Header
+>> Footer 
+>> Breadcrumb
+>> Preloader
+>> Theme
+>> Home-1
+>> Blog
+>> Blog Details
+--------------------------------------------------------------*/
+
+// Setting
+@import 'settings/variable';
+@import 'settings/mixin';
+
+// Base
+@import 'base/typography';
+@import 'base/animation';
+
+// Layout
+@import 'layout/navbar';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/breadcrumb';
+
+// Module
+@import 'module/preloader';
+
+// Theme 
+@import 'theme/theme';
+@import 'theme/home-1';
+@import 'theme/blog';
+@import 'theme/blog-details';
+

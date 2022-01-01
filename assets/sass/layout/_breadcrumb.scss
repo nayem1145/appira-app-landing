@@ -1,0 +1,46 @@
+/* Breadcrumb Section */
+.appira-breadcrumb {
+    padding: 230px 0 120px 0;
+    background-color: #f8f9fa;
+    margin-top: -130px;
+    position: relative;
+    overflow: hidden;
+    .circle-1 {
+        position: absolute; 
+        right: -100px; 
+        top: -50px;
+        width: 330px;
+        transform: rotate(-60deg);
+    }
+    .circle-2 {
+        position: absolute; 
+        left: -100px; 
+        bottom: -10px;
+        width: 330px;
+        transform: rotate(-90deg);
+    }
+    .breadcrumb-content {
+        text-align: center;
+        position: relative; 
+        z-index: 10;
+        p {
+            margin-top: 15px;
+            color: $heading-color;
+            font-weight: 500;
+            a {
+                transition: $transition; 
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+    @include portrait-phone {
+        .circle-1 {
+            display: none; 
+        }
+        .circle-2 {
+            display: none; 
+        }
+    }
+}

@@ -1,0 +1,77 @@
+@keyframes ripple-animation {
+    0% {
+      box-shadow: 0 0 0 0 $secondary-color; 
+    }
+    50% {
+      box-shadow: 0 0 0 20px rgba(1, 93, 199, 0); 
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(1, 93, 199, 0); 
+    } 
+}
+@keyframes ripple-primary {
+    0% {
+      box-shadow: 0 0 0 0 $primary-color; 
+    }
+    50% {
+      box-shadow: 0 0 0 30px rgba(1, 93, 199, 0); 
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(1, 93, 199, 0); 
+    } 
+}
+
+@keyframes ct_fadeInRight {
+    0% {
+        transform: translateX(50px); 
+        opacity: 0;
+    }
+    70% {
+        transform: translateX(30px); 
+        opacity: 0; 
+    }
+    100% {
+        transform: translateX(0); 
+        opacity: 1;
+    }
+}
+
+@keyframes ct_fadeInUp {
+    0% {
+        transform: translateY(50px); 
+        opacity: 0;
+    }
+    70% {
+        transform: translateY(30px); 
+        opacity: 0; 
+    }
+    100% {
+        transform: translateY(0); 
+        opacity: 1;
+    }
+}
+
+@keyframes ct_fadeInLeft {
+    0% {
+        transform: translateX(-50px); 
+        opacity: 0;
+    }
+    70% {
+        transform: translateX(-30px); 
+        opacity: 0; 
+    }
+    100% {
+        transform: translateX(0); 
+        opacity: 1;
+    }
+}
+
+@keyframes shine {
+    0% {
+        left: -40px;
+    }
+    100% {
+        left: 110%;
+    }
+}
+

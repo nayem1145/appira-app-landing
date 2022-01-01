@@ -1,0 +1,105 @@
+/* Author CSS */
+body {
+	margin: 0;
+    padding: 0;
+	color: $paragraph-color;
+	font-family: $template-font;
+}
+
+h1 {
+    color: $heading-color;
+    font-size: 50px;
+}
+
+h2 {
+    color: $heading-color;
+    font-size: 42px;
+    @include portrait-phone {
+        font-size: 36px;
+    }
+}
+
+h3 {
+    color: $heading-color;
+    font-size: 36px;
+    @include portrait-phone {
+        font-size: 30px;
+    }
+}
+
+h4 {
+    color: $heading-color;
+    font-size: 30px;
+    @include portrait-phone {
+        font-size: 26px;
+    }
+}
+
+h5 {
+    color: $heading-color;
+    font-size: 24px;
+}
+
+h6 {
+    color: $heading-color;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $heading-font;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+
+p {
+	color: $paragraph-color;
+    margin-bottom: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: initial;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+    color: initial;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus,
+.slick-slide {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+i[class^="flaticon-"] {
+    line-height: 0;
+}
+.container {
+    max-width: 1200px;
+}
